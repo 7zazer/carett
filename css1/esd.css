@@ -1,0 +1,479 @@
+* {
+
+    padding: 0;
+    margin: 0;
+  font-family: 'Secular One', sans-serif ;
+ 
+}
+
+
+
+
+body{
+ background-color: #89898b;
+background-image: url(1-Mercedes-G-Class.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+ background-attachment: fixed; 
+ backdrop-filter: blur(8px); 
+/* background-position: center; */
+
+}
+
+  
+  
+  
+  
+  
+header{
+
+
+}
+
+
+header .h6{
+display: flex;
+justify-content: center;
+align-items: center;
+background-attachment: fixed;
+background-color: #89898b;
+height: 100px;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+header .h6 h1{
+font-size: 60px;
+color: rgb(255,255,255,0.7);
+margin-right: 70px;
+
+}
+
+
+
+header .h6 a{
+text-decoration: none;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+nav{
+background-color: rgb(255,255,255,0.4);
+height: 100px;
+
+
+
+
+}
+
+nav div{
+display: flex;
+justify-content: space-between;
+margin-left: 20px;
+padding: 10px;
+
+margin-bottom: 10px;
+overflow: hidden;
+
+}
+
+/* nav div ul{
+
+    list-style: none;
+   margin-right: 10px;
+ position: relative;
+ bottom: 10px;
+margin-top: 20px;
+
+
+}
+
+nav div ul li{
+
+ font-size: 20px;
+ display:inline-block;
+}
+
+nav div ul li a{
+text-decoration: none;
+margin-left: 20px;
+color: #dcdcdc;
+
+
+
+} */
+
+nav div .s2{
+
+position: relative;
+bottom: 10px;
+}
+
+
+nav div.s2 h1{
+
+font-size: 33px;
+
+
+
+}
+
+
+
+/* //nav par// */
+section {
+
+
+/* margin-top: 10px;
+height: 200vh; */
+
+
+
+ }
+
+ section .d3{
+
+
+ display: flex;
+align-items: center;
+flex-wrap: wrap;
+  justify-content:row;
+flex-flow: row wrap;
+ margin-top: 20px;
+
+ }
+
+ section .d3 div{
+
+background-color: rgb(255,255,255,0.5);
+width:600px;
+ margin-top: 20px;
+ margin-left: 80px;
+ overflow:auto; 
+height: 560px;
+display:inline-block;
+border-radius: 30px;
+transition: calc(0.5s);
+
+ }
+
+
+
+section .d3 div:hover{
+
+height: 800px;
+transform: scale(0.5s);
+
+
+
+}
+
+ section .d3 div h3{
+margin-left: auto;
+font-size: 30px;
+font-weight:bold;
+
+
+ }
+
+
+ section .d3 div p{
+
+font-weight: 300;
+font-size: 20px;
+ margin-left: 10px;
+color: rgb(255,255,255,0.7);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+background-color: #89898b;
+height: 90px;
+
+}
+
+
+
+footer .f8{
+
+display: flex;
+justify-content: space-between;
+
+}
+
+footer .f8 ul{
+display: flex;
+justify-content: center;
+padding: 8px;
+flex-wrap: wrap;
+flex-direction: row;
+
+}
+
+
+footer .f8 ul li{
+
+list-style: none;
+
+
+margin-left: 10px;
+margin-top: 20px;
+
+
+}
+footer .f8 ul li a{
+text-decoration: none;
+color:rgb(255,255,255,0.7);
+font-size: 20px;
+transition: calc(0.4s);
+}
+
+footer .f8 ul li a:hover{
+background-color: rgb(255,255,255,0.7);
+color: #89898b;
+padding: 10px;
+border-radius: 20px;
+}
+
+
+
+
+
+
+footer .f8 h4{
+
+margin-top: 20px;
+font-size: 30px;
+transition: calc(0.4s);
+margin-left: 10px;
+}
+
+
+
+footer .f8 h4:hover{
+
+color: rgb(255,255,255,0.7);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:500px) {
+
+ body{
+
+background-image: urL(pexels-kam-pratt-3457780\ \(1\).jpg);
+
+
+
+
+
+
+ }
+
+
+header  .h6 h1{
+
+
+
+  
+}
+
+
+
+  nav div {
+ 
+ 
+
+
+      flex-direction: column;
+    justify-content:flex-start;
+    
+  height: 150px;
+ 
+  }
+
+
+
+
+nav div ul li a{
+color: #dcdcdc;
+font-size: 20px;
+
+
+}
+nav div ul {
+
+
+margin-bottom: -800px;
+
+}
+
+
+  section .d3 div{
+
+    background-color: rgb(255,255,255,0.5);
+   
+     margin-top: 20px;
+    
+    overflow:auto;
+  
+   margin-left: -5PX;
+    border-radius: 30px;
+   
+     }
+section .d3 div h1{
+
+margin-top: 10px;
+
+
+}
+
+
+
+
+
+
+
+
+
+section{
+
+margin-top: -100px;
+
+
+
+
+}
+
+
+
+
+section .d3{
+display: flex;
+justify-content: center;
+
+margin-top: 10px;
+transform: scale(0.8);
+
+
+}
+
+
+
+section .d3 div{
+
+background-color: rgb(255,255,255,0.4);
+width: 700px;
+height: 500px;
+
+transition: calc(0.5s);
+
+}
+
+section .d3 div:hover{
+
+height: 800px;
+transform: scale(1);
+width: 600px;
+
+}
+
+
+section .d3  div img{
+
+
+
+
+
+
+}
+
+
+
+FOOTER{
+height: 300PX;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+margin-bottom: 900px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
